@@ -37,7 +37,7 @@ The completed study uses **secondary research only**. Evidence is triangulated a
 - live competitor/platform features;
 - specialist commercial market intelligence.
 
-No survey, interview or focus-group findings are claimed in this repository.
+No survey, interview or focus-group findings are claimed in this repository. The study is covered by Coventry University's 7001SOM low-risk block approval P192092; the project uses no participants or personal datasets.
 
 ## Key findings
 
@@ -71,6 +71,7 @@ The Fit Score is a **preference-fit measure only**. It is not a safety certifica
     project_overview.md
     research_questions_and_objectives.md
     research_method_and_ethics.md
+    ethics_scope_and_approval.md
     research_log.csv
     supervisor_feedback_log.csv
 
@@ -102,6 +103,7 @@ The Fit Score is a **preference-fit measure only**. It is not a safety certifica
 
 05_report/
     final_report.md
+    FairNest_UK_Final_Submission.docx
 
 06_quality_assurance/
     route3_rubric_map.csv

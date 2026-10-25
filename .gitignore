@@ -1,0 +1,31 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+~$*.docx
+~$*.xlsx
+
+# Temporary / QA
+*.tmp
+*.bak
+*.log
+__pycache__/
+.ipynb_checkpoints/
+qa_*/
+render*/
+*_render/
+*_diff/
+*montage*.png
+page-*.png
+
+# Local environments
+.env
+.env.*
+.venv/
+venv/
+
+# Local archives
+*.zip

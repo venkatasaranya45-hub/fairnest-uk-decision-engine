@@ -1,0 +1,11 @@
+Req ID,Requirement,Evidence basis,Implementation,Acceptance criterion,Risk controlled,Status
+R01,"Separate weekly rent, contract total and known booking cash",Coventry University payment evidence; OfS cost salience,Discover & Compare view shows distinct values.,No affordability conclusion based only on weekly rent.,Headline-price bias,Pass
+R02,Expose source provenance and check date,Signalling/trust literature,Evidence tab links each option to source(s) and date.,User can identify origin and freshness of every populated option.,Information asymmetry,Pass
+R03,Show missing data explicitly,Data-quality governance,Unknown values shown as missing/not normalised.,No unknown field displayed as £0 or favourable certainty.,False precision,Pass
+R04,Classify accommodation context before legal prompts,2026 Renters' Rights guidance; halls distinction,"Contract & Legal Check separates halls, PBSA and private assured tenancy context.",Private-tenancy rule is never automatically applied to a hall.,Misleading legal guidance,Pass
+R05,Keep ranking user controlled,Preference heterogeneity literature,"User can alter weights for cost, cash, commute and evidence.",Weight changes alter Fit Score transparently.,Opaque recommendation,Pass
+R06,Keep paid status out of organic ranking,Two-sided-platform governance,Commercial status is not a scoring input.,Same evidence/preferences yield same Fit Score regardless of paid status.,Pay-to-rank conflict,Pass
+R07,Provide parent/sponsor decision support,International pre-arrival decision context,Parent/Sponsor Summary surfaces cost/evidence questions.,Summary shows decision checks before transfer.,Remote decision risk,Pass
+R08,Avoid presenting evidence completeness as safety probability,Trust/governance literature,UI describes it as traceability/coverage indicator.,No safety-certification claim in UI or documentation.,Overclaiming verification,Pass
+R09,Minimise personal data,ICO guidance,Prototype ranking works without protected-characteristic data.,No nationality/race/religion field required for ranking.,Privacy/discrimination,Pass
+R10,Provide clear limitations/legal boundary,Regulatory and methodological limitations,"Boundary text states decision support, not legal advice.",User is directed to official/qualified advice for personal interpretation.,Liability/misinterpretation,Pass

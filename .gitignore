@@ -1,4 +1,4 @@
-# OS/editor
+# OS / editor
 .DS_Store
 Thumbs.db
 desktop.ini
@@ -8,24 +8,14 @@ desktop.ini
 ~$*.docx
 ~$*.xlsx
 
-# Temporary / QA
+# Temporary / QA outputs
 *.tmp
 *.bak
 *.log
 __pycache__/
 .ipynb_checkpoints/
 qa_*/
-render*/
 *_render/
 *_diff/
 *montage*.png
 page-*.png
-
-# Local environments
-.env
-.env.*
-.venv/
-venv/
-
-# Local archives
-*.zip

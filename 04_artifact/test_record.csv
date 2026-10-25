@@ -1,0 +1,11 @@
+Test ID,Scenario,Input/condition,Expected behaviour,Observed result,Evidence,Outcome
+T01,Budget sensitivity,Reduce weekly budget below a selected room's rent.,Recurring-cost component declines; raw price remains visible.,Score responds to budget; listing data unchanged.,Fit Score formula.,Pass
+T02,Booking-cash sensitivity,Set cash limit below known booking cash.,Move-in-cash component declines.,Score responds without hiding the cash amount.,Fit Score formula.,Pass
+T03,Missing payment data,Select an aggregator example with incomplete payment evidence.,UI shows missing/not normalised rather than £0.,Missing data remains visible.,Evidence provenance logic.,Pass
+T04,Private tenancy legal context,Open a private assured-tenancy example.,2026 rent/deposit prompts shown with boundary wording.,Context-specific prompts shown.,GOV.UK rules.,Pass
+T05,University hall context,Open a university-managed hall.,Private-tenancy rules are not asserted as if they automatically apply.,Hall/licence context displayed separately.,Coventry University terms / GOV.UK halls distinction.,Pass
+T06,Preference reweighting,Increase commute weight and reduce cost weight.,Ranking changes according to the user's stated priorities.,Fit Score updates with weights.,Fit Score logic.,Pass
+T07,Evidence provenance,Open evidence panel for a listed option.,Primary source and check date displayed.,Source link/date visible.,Source register.,Pass
+T08,Paid-status independence,Compare logic with no paid-status variable in scoring.,Fit Score unaffected by commercial status.,No paid field in score formula.,Governance rule.,Pass
+T09,Parent summary,Generate summary for highest-fit option.,"Summary surfaces cost, payment and evidence checks.",Sponsor-oriented checklist displayed.,Artefact specification.,Pass
+T10,Legal advice boundary,Review legal-check wording.,No individual legal conclusion or guarantee is made.,Boundary statement and official signposting present.,Governance rule.,Pass

@@ -1,0 +1,11 @@
+Risk ID,Risk,Likelihood,Impact,Control,Residual risk,Owner at pilot,Trigger / review
+RK01,Out-of-date accommodation data,High,High,"Source dates, refresh schedule, provider correction route and expiry flags.",Medium,Data/operations,Price or terms differ from first-party source.
+RK02,Misclassification of tenancy/licence context,Medium,High,Require agreement classification before legal prompts; unresolved cases flagged for official advice.,Medium,Operations/legal review,Agreement type cannot be evidenced.
+RK03,Users interpret Fit Score as safety/quality certification,Medium,High,Persistent explanation that Fit Score is preference fit only; raw evidence remains visible.,Low-Medium,Product,User-facing copy or marketing implies guarantee.
+RK04,Paid provider influence undermines trust,Medium,High,Paid status excluded from organic score; sponsored placement clearly separated if introduced.,Low-Medium,Commercial/product,Commercial request to alter organic ranking.
+RK05,Insufficient provider willingness to pay,High,Medium,Stage-gate provider outreach; do not scale fixed cost before conversion evidence.,Medium,Commercial,Paid-account conversion below gate.
+RK06,Student adoption too low,Medium,High,"Free core, search-led educational acquisition, usability validation before expansion.",Medium,Marketing/product,Low repeat use / shortlist completion.
+RK07,Privacy overcollection,Low-Medium,High,Data minimisation; no protected-characteristic ranking; documented retention/lawful basis before live launch.,Low,Data protection,New feature requests unnecessary personal data.
+RK08,Legal/regulatory change,Medium,High,Quarterly official-source review and rule versioning.,Medium,Operations,GOV.UK/ICO guidance updated.
+RK09,Weak evidence coverage outside Coventry,High,Medium,Keep pilot geographically bounded until repeatable sourcing is demonstrated.,Medium,Operations,Expansion proposed before source coverage threshold.
+RK10,Year-1 cash shortfall,High,High,"Capped funding buffer, monthly burn monitoring and go/no-go gates.",Medium,Founder/finance,Cumulative cash falls below pilot buffer.
